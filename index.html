@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You Can't Beat My AI</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+</head>
+<body id="body">
+    <div id="welcome">
+        <h1>Welcome to the Ultimate Tic-Tac-Toe Challenge!</h1>
+        <p>Try to beat the AI if you can...</p>
+    </div>
+    <p id="head">6Tan A</p>
+    <div id="container">
+        <button id="reset">New Game</button>
+        <div id="playerTurn">Player's Turn: X</div>
+        <div id="topRow" class="rows">
+            <button id="TL" class="cells" onclick="playerMove('TL')">X</button>
+            <button id="TM" class="cells" onclick="playerMove('TM')">X</button>
+            <button id="TR" class="cells" onclick="playerMove('TR')">X</button>
+        </div>
+        <div id="middleRow" class="rows">
+            <button id="L" class="cells" onclick="playerMove('L')">X</button>
+            <button id="M" class="cells" onclick="playerMove('M')">X</button>
+            <button id="R" class="cells" onclick="playerMove('R')">X</button>
+        </div>
+        <div id="bottomRow" class="rows">
+            <button id="BL" class="cells" onclick="playerMove('BL')">X</button>
+            <button id="BM" class="cells" onclick="playerMove('BM')">X</button>
+            <button id="BR" class="cells" onclick="playerMove('BR')">X</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
